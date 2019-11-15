@@ -1,0 +1,27 @@
+html {
+    position: relative;
+    width: 1920px;
+    height: 1080px;
+}
+body{
+    font-family: "Verdana", Geneva, sans-serif;
+    background-color:#ededed
+}
+.main{
+    margin: 50px 200px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+}
+.name{
+    text-align: center;
+    padding: 10px;
+    font-size: 1.5rem;;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 35% 65%;
+    margin: 10px 10px;
+}
+.col{
+    margin: 20px 20px 20px 20px;
+}
